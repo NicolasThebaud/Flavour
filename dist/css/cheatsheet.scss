@@ -1,0 +1,22 @@
+/* Flavour : How to
+
+-> color variable declaration:
+		$color<name>: #f44336;
+	EX:
+		$colorblue: #0000ff;
+
+-> background flavouring :
+		[flavour="<name>"] { background-color: $color<name> !important; }
+	EX:
+		[flavour="blue"] { background-color: $colorblue !important; }
+
+-> background flavouring :
+		[flavour-text='<name>'] { color: $color<name> !important; }
+	EX:
+		[flavour-text='blue'] { color: $colorblue !important; }
+
+*/
+
+$color_example: #fff;
+[flavour="_example"] { background-color: $color_example !important; }
+[flavour-text='_example'] { color: $color_example !important; }

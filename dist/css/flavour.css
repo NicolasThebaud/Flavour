@@ -1,0 +1,36 @@
+[flavour], body {
+  -webkit-transition: background-color .2s linear;
+  -moz-transition: background-color .2s linear;
+  -o-transition: background-color .2s linear;
+  -ms-transition: background-color .2s linear;
+  transition: background-color .2s linear; }
+
+[flavour="1"] {
+  background-color: #f44336 !important; }
+
+[flavour="2"] {
+  background-color: #673ab7 !important; }
+
+[flavour="3"] {
+  background-color: #2196f3 !important; }
+
+[flavour="4"] {
+  background-color: #00c853 !important; }
+
+[flavour="5"] {
+  background-color: #ff9800 !important; }
+
+[flavour-text='1'] {
+  color: #f44336 !important; }
+
+[flavour-text='2'] {
+  color: #673ab7 !important; }
+
+[flavour-text='3'] {
+  color: #2196f3 !important; }
+
+[flavour-text='4'] {
+  color: #00c853 !important; }
+
+[flavour-text='5'] {
+  color: #ff9800 !important; }

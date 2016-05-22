@@ -1,0 +1,19 @@
+{
+  "name": "flavour",
+  "version": "0.2.1",
+  "description": "Sass-powered flavour picker for simple live recoloration",
+  "main": "index.js",
+  "bin": {
+    "flavour": "./bin/flavour.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "n.thebaud",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "meow": "^3.7.0",
+    "node-sass": "^3.7.0"
+  }
+}
