@@ -1,6 +1,6 @@
 {
   "name": "flavour",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Sass-powered flavour picker for simple live recoloration",
   "main": "index.js",
   "bin": {
@@ -14,8 +14,8 @@
     "meow": "^3.7.0",
     "node-sass": "^3.7.0"
   },
-  "repository" :{ 
-  	"type" : "git", 
-  	"url" : "http://nicolasthebaud.github.io/Flavour/"
+  "repository": {
+    "type": "git",
+    "url": "http://nicolasthebaud.github.io/Flavour/"
   }
 }
