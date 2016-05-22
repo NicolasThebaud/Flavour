@@ -6,14 +6,16 @@
   "bin": {
     "flavour": "./bin/flavour.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "n.thebaud",
   "license": "ISC",
   "dependencies": {
     "jquery": "^2.2.4",
     "meow": "^3.7.0",
     "node-sass": "^3.7.0"
+  },
+  "repository" :{ 
+  	"type" : "git", 
+  	"url" : "http://nicolasthebaud.github.io/Flavour/"
   }
 }
