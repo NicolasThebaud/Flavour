@@ -17,11 +17,11 @@ $color5: #ff9800;
 [flavour="3"] { background-color: $color3 !important; }
 [flavour="4"] { background-color: $color4 !important; }
 [flavour="5"] { background-color: $color5 !important; }
-[flavour-text='1'] { color: $color1 !important; }
-[flavour-text='2'] { color: $color2 !important; }
-[flavour-text='3'] { color: $color3 !important; }
-[flavour-text='4'] { color: $color4 !important; }
-[flavour-text='5'] { color: $color5 !important; }
+[flavour-text='1']:not(.flavour-setup) { color: $color1 !important; }
+[flavour-text='2']:not(.flavour-setup) { color: $color2 !important; }
+[flavour-text='3']:not(.flavour-setup) { color: $color3 !important; }
+[flavour-text='4']:not(.flavour-setup) { color: $color4 !important; }
+[flavour-text='5']:not(.flavour-setup) { color: $color5 !important; }
 
 body { @extend [flavour]; }
 

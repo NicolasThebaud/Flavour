@@ -20,17 +20,17 @@
 [flavour="5"] {
   background-color: #ff9800 !important; }
 
-[flavour-text='1'] {
+[flavour-text='1']:not(.flavour-setup) {
   color: #f44336 !important; }
 
-[flavour-text='2'] {
+[flavour-text='2']:not(.flavour-setup) {
   color: #673ab7 !important; }
 
-[flavour-text='3'] {
+[flavour-text='3']:not(.flavour-setup) {
   color: #2196f3 !important; }
 
-[flavour-text='4'] {
+[flavour-text='4']:not(.flavour-setup) {
   color: #00c853 !important; }
 
-[flavour-text='5'] {
+[flavour-text='5']:not(.flavour-setup) {
   color: #ff9800 !important; }

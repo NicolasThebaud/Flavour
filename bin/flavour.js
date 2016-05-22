@@ -107,7 +107,7 @@ ${getTextFlavour(id)}
 
 function getColorPattern(hex, id) { return '$color'+id+': #'+hex+';' }
 function getColorFlavour(id) { return '[flavour="'+id+'"] { background-color: $color'+id+' !important; }' }
-function getTextFlavour(id) { return '[flavour-text="'+id+'"] { color: $color'+id+' !important; }' }
+function getTextFlavour(id) { return '[flavour-text="'+id+'"]:not(.flavour-setup) { color: $color'+id+' !important; }' }
 
 /*** LIST COLORS ***/
 
