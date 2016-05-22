@@ -47,7 +47,7 @@
 }
 
 body {
-  padding: 5em;
+  padding: 0 5em;
 }
 
 .bold {
@@ -64,5 +64,8 @@ body {
 }
 
 code {
-  font-size: .75rem;
+  font-size: .75rem !important;
 }
+
+.no-top { margin-top: 0; }
+.no-bot { margin-bottom: 0; }
