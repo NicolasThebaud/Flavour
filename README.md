@@ -1,6 +1,6 @@
 # Flavour
 
-![](http://gph.is/12hcy9o)
+![](https://media.giphy.com/media/Cx7yNo5TsPQru/giphy.gif)
 
 Pre-made SASS stylesheet & JQuery event handler for live recoloration
 
