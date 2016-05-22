@@ -4,7 +4,7 @@
 
 Pre-made SASS stylesheet & JQuery event handler for live recoloration
 
-See it live [**here**](http://nicolasthebaud.github.io/Flavour/)
+See it working at [**http://nicolasthebaud.github.io/Flavour/**](http://nicolasthebaud.github.io/Flavour/)
 
 # Install
 ```
