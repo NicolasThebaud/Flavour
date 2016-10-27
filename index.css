@@ -69,3 +69,7 @@ code {
 
 .no-top { margin-top: 0; }
 .no-bot { margin-bottom: 0; }
+
+.btn:not(last-child) {
+  margin-bottom: .25em;
+}
